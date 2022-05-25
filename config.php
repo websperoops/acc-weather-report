@@ -7,7 +7,8 @@ define('GOOGLE_CLIENT_SECRET', 'YOUR_GOOGLE_CLIENT_SECRET');
 define('LOCATION_URL', 'PASTE_ACCU_WEATHER_LOCATION_API_URL_WITH__API_KEY');
 define ('CURRENT_CONDITION_URL', 'PASTE_ACCU_WEATHER_CURRENT_CONDITION_API_URL_WITH_API_KEY');
 
-define ("EMAILS", serialize (array ('EMAIL_ADDRESS_OF_USER')));
+$toEmails = array ('EMAIL_ADDRESS_OF_USERS');
+define ("EMAILS", serialize ($toEmails));
 
 $config = [
     'callback' => 'YOUR_PROJECT_CALLBACK_URL',
