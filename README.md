@@ -16,7 +16,7 @@ Composer install
 ```
 Create Database
 ```
-###### run below query in sql
+### Run below query in sql
 ```
 CREATE TABLE `google_oauth` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
