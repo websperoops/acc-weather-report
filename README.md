@@ -25,7 +25,7 @@ CREATE TABLE `google_oauth` (
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
-### Replace credentials in credentials.json file
+### Create credentials.json Replace credentials in credentials.json file
 ```
 {
 
