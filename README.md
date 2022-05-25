@@ -19,8 +19,15 @@ CREATE TABLE `google_oauth` (
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
-# replace credentials in credentials.json file
-# change db settings in class-db.php
+### Replace credentials in credentials.json file
+```
+{
 
-# access callback.php file via browser
-# For creating report call create-sheet.php file
+}
+```
+
+### Change db settings in class-db.php
+
+### Access callback.php file via browser
+
+### For creating report call create-sheet.php file
