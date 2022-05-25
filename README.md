@@ -6,8 +6,11 @@
 # INSTALLATION
 ```
 Git pull
+```
 cd acc-weather-report
+```
 Composer install
+```
 Create Database
 ```
 ###### run below query in sql
