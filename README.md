@@ -5,7 +5,7 @@
 
 # INSTALLATION
 ```
-Git pull
+git pull
 ```
 ```
 cd acc-weather-report
