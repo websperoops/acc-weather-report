@@ -3,6 +3,12 @@
 # INTRODUCTION
 ###### It will generate weather Report of 50 top cities based on Location and their current Condition
 
+# Prerequisites
+```
+PHP >= 7
+MySql
+Composer
+```
 # INSTALLATION
 ```
 git pull
@@ -37,3 +43,12 @@ CREATE TABLE `google_oauth` (
 ### Access set-token.php file via browser to create auth token
 
 ### For creating report call create-sheet.php file
+###### For generation report manually from command line
+```
+php -f create-sheet.php
+```
+
+###### Command for cron job
+```
+php -f path_to_your_folder/create-sheet.php >/dev/null 2>&1
+```
