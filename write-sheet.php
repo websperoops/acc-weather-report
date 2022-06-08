@@ -111,7 +111,6 @@ function makeCurlCall(string $url){
 
     $response = curl_exec($curl);
     curl_close($curl);
-    $response = curl_exec($curl);
     return $response;
     
 }
