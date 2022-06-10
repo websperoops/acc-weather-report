@@ -1,30 +1,26 @@
-# acc-weather-report
+# weather-report
 
-# INTRODUCTION 
+# INTRODUCTION
 ###### It will generate weather Report of 50 top cities based on Location and their current Condition
 
+# Prerequisites
+```
+PHP >= 7
+Composer
+```
 # INSTALLATION
 ```
 git pull
 ```
 ```
-cd acc-weather-report
+cd weather-report
 ```
 ```
 Composer install
 ```
-```
-Create Database
-```
-### Run below query in sql
-```
-CREATE TABLE `google_oauth` (
- `id` int(11) NOT NULL AUTO_INCREMENT,
- `provider` varchar(255) NOT NULL,
- `provider_value` text NOT NULL,
- PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-```
+
+### Create a project on google cloud platform, enable google sheet and drive api and  get service account credentials from there
+
 ### Create credentials.json Replace credentials in credentials.json file
 ```
 {
@@ -32,8 +28,12 @@ CREATE TABLE `google_oauth` (
 }
 ```
 
-### Change db settings in class-db.php
+###### For generating report manually from command line
+```
+php -f index.php
+```
 
-### Access callback.php file via browser
-
-### For creating report call create-sheet.php file
+###### Command for cron job
+```
+php -f path_to_your_folder/create-sheet.php >/dev/null 2>&1
+```
