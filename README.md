@@ -1,14 +1,14 @@
 # weather-report
 
-# INTRODUCTION
+## INTRODUCTION
 ###### It will generate weather Report of 50 top cities based on Location and their current Condition
 
-# Prerequisites
+## Prerequisites
 ```
 PHP >= 7
 Composer
 ```
-# INSTALLATION
+## INSTALLATION
 ```
 git pull
 ```
